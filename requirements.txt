@@ -1,0 +1,4 @@
+Flask
+langchain-openai
+langchain_experimental
+pinecone-client

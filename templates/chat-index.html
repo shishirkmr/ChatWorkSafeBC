@@ -1,0 +1,73 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<div class="container">
+</div><!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat with WorkSafeBC | Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <link rel="stylesheet" href="static/bootstrap-style.css">
+        <link rel="stylesheet" href="static/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navStyle">
+            <a class="brand-navbar" href="#"><img src="https://www.worksafebc.com/img/worksafebc_logo.jpg" alt="Responsive image" height="60px"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+                <span><i class="fas fa-align-right iconStyle"></i></span>
+            </button>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+
+
+                    <div id="chat-container">
+                        <div id="chat-header">Chat with WorkSafeBC</div>
+                        <div id="chat-box"></div>
+                            <div class="search">
+
+
+                            </div>
+                        <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <div class="card card-sm">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <!--end of col-->
+                                    <div class="col">
+                                        <input type="text" id="user-input" class="form-control form-control-lg form-control-borderless" placeholder="Type a message to WorkSafeBC...">
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col-auto">
+                                        <button id="send-btn" class="btn btn-lg btn-success">Send</button>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--end of col-->
+                    </div>
+<!--                        <input type="text" id="user-input" placeholder="Type a message...">-->
+<!--                        <button id="send-btn">Send</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</html>
