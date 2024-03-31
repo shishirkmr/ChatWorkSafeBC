@@ -1,4 +1,4 @@
-Flask
-langchain-openai
-langchain_experimental
-pinecone-client
+Flask==3.0.2
+langchain==0.1.13
+langchain_openai==0.1.1
+pinecone-client==3.2.1
